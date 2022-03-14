@@ -1,0 +1,49 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Inter, arial;
+}
+
+nav {
+  background-color: coral;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+}
+
+nav span {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+nav ul li.active a {
+  font-weight: 600;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+nav ul a:hover {
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */

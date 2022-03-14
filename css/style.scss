@@ -1,0 +1,45 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, arial;
+}
+
+$primaryColor: coral;
+
+nav{
+    background-color: coral;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+    span{
+        font-weight: 500;
+        font-size: 1.2em;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    ul{
+        list-style-type: none;
+        
+        li{
+            display: inline-block;
+            margin-right: 2em;
+
+            &.active a{
+                font-weight: 600;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #f2f2f2;
+
+            &:hover{
+                color: #333;
+            }
+        }
+
+    }
+}
